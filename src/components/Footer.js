@@ -46,9 +46,6 @@ function Footer() {
         </div>
       </div>
     </footer>
-    // <div className="footer">
-    //   <p>Footer</p>
-    // </div>
   );
 }
 

@@ -5,7 +5,7 @@ export const separator = (props) => {
 
 export const flattenArray = (str) => {
   return str
-    ?.filter((item) => item.trim().length > 0)
+    ?.filter((item) => item?.trim().length > 0)
     .join(", ")
     .concat(".");
 };
